@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="../02_css/02_formulaire.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulaire</title>
+</head>
+<body>
+    <form>
+        <!-- Je déclare mon formulaire avec la balise form -->
+        <label for="pseudo">Pseudo</label>
+        <input type="text" placeholder="Votre pseudo"> <br>
+
+        <label  for="mot de passe">Mot de Passe</label >
+        <input type="password" placeholder="Votre Mot de Passe" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+
+        <label for="Email">Email</label>
+        <input type="email" placeholder="Votre Email" size="50" required><br>
+        <label for="Photo">Photo</label>
+        <input type="file" placeholder="Parcourir..."><br>
+
+        <label for="Destination">Quelle destination choisissez-vous?</label><br><br>
+        <input type="checkbox" name="Chine"> Chine
+        <input type="checkbox" name="Australie"> Australie
+        <input type="checkbox" name="Mars"> Mars <br><br>
+        <input type="radio" name="Destination"> Chine
+        <input type="radio" name="Destination"> Australie
+        <input type="radio" name="Destination"> Mars <br><br>
+
+        <label for="Commentaire">Commentaire</label>
+        <textarea rows="4" cols="50"></textarea><br>
+
+        <button type="submit" value="submit">Envoyer</button>
+
+        <input type="reset" value="Annuler"/>
+
+    
+
+
+    </form>
+</body>
+</html>

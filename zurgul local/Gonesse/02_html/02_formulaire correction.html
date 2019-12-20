@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="../02_css/02_style_formulaire_correction.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulaire Correction</title>
+</head>
+<body>
+    <form>
+    <p><label for="pseudo"> Pseudo *</label>
+        <input type="text" placeholder="Taper votre pseudo">
+    </p>
+    <p>
+        <label for="password">Mot de passe *</label>
+        <input type="password" placeholder="mot de passe" required>
+    </p>
+
+
+
+    <p>
+        <label for="email">Email *</label>
+        <input type="text" placeholder="email" required>
+    </p>
+    <p>
+        <label for="Photo">Photo</label>
+        <input type="file">
+
+    </p>
+    <label for="question">Quelle destination choisissez-vous ?</label>
+    <p>
+        <input type="checkbox"> Chine
+        <input type="checkbox"> Australie
+        <input type="checkbox"> Mars
+    </p>
+    <p>
+        <input type="radio" name="destination" value="Chine"> Chine
+        <input type="radio" name="destination" checked value="Australie"> Australie
+        <input type="radio" name="destination" value="Mars"> Mars
+    </p>
+
+    <p>
+        <label for="commentaire">Commentaire</label>
+        <textarea name="commentaire" id="commentaire" cols="90" rows="10">
+        </textarea>
+        <!-- rows=nombre de lignes
+        cols=nombre de colonnes/caractères. -->
+    </p>
+
+    <p>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+        <!-- Bouton envoi du formulaire -->
+        <!-- Bouton pour vider le formulaire -->
+    </p>
+
+</form>
+    
+</body>
+</html>

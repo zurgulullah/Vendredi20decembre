@@ -1,0 +1,35 @@
+body {
+    width: 40%;
+    margin: auto;
+}
+
+table {
+    width: 5px;
+    margin: 25%;
+    padding: 50px;
+}
+
+td{
+    padding: 80px;
+    border: black 1px solid;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.white {
+    background-color: white;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}

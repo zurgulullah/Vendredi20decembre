@@ -1,0 +1,9 @@
+body {
+    background: #336699
+    ;
+}
+
+:required {
+
+   border-color: rgba(191, 68, 68, 0.75);
+}

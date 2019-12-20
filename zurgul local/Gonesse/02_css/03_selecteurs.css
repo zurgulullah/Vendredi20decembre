@@ -1,0 +1,78 @@
+body {
+    font-size: 25px;
+    /* taille de police : 25px; */
+}
+
+h1{
+    background-color: darkslategray;
+}
+
+section p{
+    color: red;
+    /* tous mes <p> à l'intérieur de la balise <section> seront en rouge */
+}
+
+section p:first-child{
+    color:darkblue;
+    /* je cible mon premier <p> */
+}
+
+section p:last-child {
+    color: lightgreen;
+    /* je cible mon dernier <p> */
+}
+
+section p:nth-child(odd) {
+    color: brown;
+/* je cible mes <p> impairs */
+}
+
+section p:nth-child(even) {
+    color:lightsteelblue;
+    /* je cible mes <p> pairs; */
+}
+
+section p:nth-child(7) {
+    color: red;
+}
+
+section p:nth-child(5),
+section p:nth-child(6) {
+    color: yellow;
+}
+
+.zone1{
+    color: #dc143c;
+}
+
+.zone2{
+    color: #008080;
+}
+
+.lime {
+    color:#00ff00;
+}
+
+#zone3 {
+    background-color: #f5deb3;
+}
+
+#zone3:after {
+    content: "rajouté après";
+    background: #dc143c;
+}
+
+#zone3:before {
+    content: "rajouté avant";
+    background: cyan;
+}
+
+
+.zone4 {
+    color:orange;
+}
+
+.zone5 li:nth-child(2){
+    background-color:darkred;
+    
+}
